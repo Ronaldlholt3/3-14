@@ -96,7 +96,7 @@ export default class CreateRestaurant extends Component {
     axios.post('http://localhost:5000/restaurant/add', newRestaurant)                
     .then(res => console.log(res.data));
     
-    window.location = '/';
+    window.location = '/restaurant';
   }
 
 
